@@ -1,0 +1,80 @@
+body {
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 1200px;
+    height: 850px;
+    overflow: auto;
+    margin: 40px auto;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 30px 40px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 60px 40px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.title span {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+strong {
+    text-transform: none;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.top-padding {
+    padding: 40px 0;
+}
